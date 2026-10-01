@@ -5,23 +5,59 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>วิธีขอลบข้อมูล · Match Cup</title>
 <meta name="robots" content="index,follow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@400;500;600;700&display=swap" rel="stylesheet">
+<meta name="theme-color" content="#fbfaf7">
+<meta name="color-scheme" content="light">
 <style>
-:root{--bg:#edf3ef;--card:#fff;--ink:#14304a;--muted:#587189;--primary:#138656}
-@media (prefers-color-scheme:dark){:root{--bg:#0b130f;--card:#12201a;--ink:#e6efe9;--muted:#9fb3a8;--primary:#34c27e}}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.7 "IBM Plex Sans Thai",system-ui,-apple-system,"Segoe UI",sans-serif}
-main{max-width:760px;margin:24px auto;padding:28px 24px;background:var(--card);border-radius:20px}
-header{max-width:760px;margin:24px auto 0;padding:0 8px;display:flex;justify-content:space-between;align-items:center}
-header a{color:var(--ink);text-decoration:none;font-weight:700;font-size:22px}header a b{color:var(--primary)}
-nav a{font-size:15px;font-weight:500;margin-left:16px;color:var(--primary)}
-h1{font-size:28px;line-height:1.3;margin:0 0 4px}h2{font-size:20px;margin:28px 0 8px}
-a{color:var(--primary)}li{margin:4px 0}footer{text-align:center;color:var(--muted);font-size:14px;padding:8px 16px 32px}
+/* CI v1.2 Pearl Soft · โหมด Read: พื้น Pearl เรียบ คอลัมน์ 680px ตัว 18px บรรทัด 1.75 · ธีมสว่างเสมอ */
+:root{--bg:#FBFAF7;--ink:#1D1D1F;--muted:#4A5759;--action:#00716B;--line:rgba(0,113,107,.14);color-scheme:light}
+*{box-sizing:border-box}
+html,body{background:var(--bg)}
+body{margin:0;color:var(--ink);font:400 17px/1.75 'Anuphan',-apple-system,BlinkMacSystemFont,'SF Pro Text','Helvetica Neue',sans-serif;-webkit-font-smoothing:antialiased}
+@media (min-width:735px){body{font-size:18px}}
+header{position:sticky;top:0;background:rgba(251,250,247,.85);-webkit-backdrop-filter:saturate(180%) blur(20px);backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid var(--line)}
+.bar{max-width:760px;margin:0 auto;padding:0 16px;height:52px;display:flex;align-items:center;gap:16px}
+.logo{font-size:19px;font-weight:400;letter-spacing:-.03em;color:var(--ink);text-decoration:none;white-space:nowrap}
+.logo b{font-weight:700;color:var(--action)}
+nav{margin-left:auto;display:flex;gap:16px;font-size:14px;font-weight:500}
+nav a{color:var(--muted);text-decoration:none}nav a[aria-current]{color:var(--ink)}
+main{max-width:680px;margin:0 auto;padding:40px 16px 56px}
+h1{font-size:28px;line-height:1.3;font-weight:600;margin:0}
+@media (min-width:735px){h1{font-size:40px;letter-spacing:-.01em}}
+.updated{color:var(--muted);font-size:15px;margin:8px 0 28px}
+h2{font-size:21px;line-height:1.35;font-weight:600;margin:32px 0 8px}
+p{margin:0 0 14px}ul,ol{margin:0 0 14px;padding-left:22px}li{margin:6px 0}
+a{color:var(--action)}b{font-weight:600}
+.small{font-size:13px;color:var(--muted)}
+footer{max-width:680px;margin:0 auto;padding:0 16px 40px;color:var(--muted);font-size:14px;border-top:1px solid var(--line);padding-top:20px}
+footer a{color:var(--muted)}
 </style>
 </head>
 <body>
-<header><a href="https://matchcup.co/">match<b>cup</b></a><nav><a href="/privacy/">นโยบายความเป็นส่วนตัว</a><a href="/data-deletion/">วิธีขอลบข้อมูล</a></nav></header>
+<header><div class="bar"><a class="logo" href="https://matchcup.co/" aria-label="Match Cup">match<b>cup</b></a><nav><a href="/privacy/">นโยบายความเป็นส่วนตัว</a><a href="/data-deletion/" aria-current="page">วิธีขอลบข้อมูล</a></nav></div></header>
 <main>
-<h1>วิธีขอลบข้อมูล</h1><p>ปรับปรุงล่าสุด 29 กันยายน 2569</p><h2>ลบเองในแอป (ทันที)</h2><ol><li>เข้าสู่ระบบ Match Cup ที่ <a href="https://matchcup.co/login">matchcup.co</a></li><li>ไปที่ <b>บัญชี</b> → เลื่อนลงไปที่ <b>ลบบัญชี</b></li><li>ติ๊กยืนยัน แล้วกด <b>ยืนยันลบบัญชีถาวร</b></li></ol><p>ระบบจะลบบัญชี ช่องทางเข้าสู่ระบบที่เชื่อมไว้ (LINE / Google / Facebook) ชื่อ รูป อีเมล และข้อมูลการเล่นของคุณทันที สำเนาสำรองของระบบจะถูกลบตามรอบภายใน 30 วัน</p><h2>ขอให้เราลบให้</h2><p>ส่งอีเมลถึง <b>jinpatiparn@gmail.com</b> หัวข้อ “ขอลบข้อมูล Match Cup” พร้อมชื่อที่แสดงในสนาม และช่องทางที่ใช้เข้าสู่ระบบ เราจะยืนยันตัวตนและดำเนินการภายใน 30 วัน</p><h2>ยกเลิกการเชื่อมจากฝั่งผู้ให้บริการ</h2><ul><li>Facebook: การตั้งค่าและความเป็นส่วนตัว → การตั้งค่า → แอพและเว็บไซต์ → ลบ Match Cup</li><li>Google: myaccount.google.com → ความปลอดภัย → การเชื่อมต่อของคุณกับแอปและบริการของบุคคลที่สาม</li><li>LINE: ตั้งค่า → บัญชี → แอปที่เชื่อมโยงกันอยู่</li></ul><h2>English</h2><p>To delete your Match Cup data, sign in at matchcup.co and go to Account → Delete account, then confirm. This immediately removes your account, linked sign-in methods (LINE, Google, Facebook), name, picture, email and play history. Backups are purged within 30 days. You can also email jinpatiparn@gmail.com with the subject “Delete my Match Cup data” and we will complete the request within 30 days.</p>
+<h1>วิธีขอลบข้อมูล</h1>
+<p class="updated">ปรับปรุงล่าสุด 1 ตุลาคม 2569</p>
+<h2>ลบเองในแอป (ทันที)</h2>
+<ol>
+<li>เข้าสู่ระบบ Match Cup ที่ <a href="https://matchcup.co/login">matchcup.co</a></li>
+<li>ไปที่ <b>บัญชี</b> → เลื่อนลงไปที่ <b>ลบบัญชี</b></li>
+<li>ติ๊กยืนยัน แล้วกด <b>ยืนยันลบบัญชีถาวร</b></li>
+</ol>
+<p>ระบบจะลบบัญชี ช่องทางเข้าสู่ระบบที่เชื่อมไว้ (LINE / Google / Facebook) ชื่อ รูป อีเมล ข้อมูลการเล่น รายชื่อเพื่อน และข้อความแชตของคุณทันที สำเนาสำรองของระบบจะถูกลบตามรอบภายใน 30 วัน</p>
+<h2>ขอให้เราลบให้</h2>
+<p>ส่งอีเมลถึง <b>jinpatiparn@gmail.com</b> หัวข้อ “ขอลบข้อมูล Match Cup” พร้อมชื่อที่แสดงในสนาม และช่องทางที่ใช้เข้าสู่ระบบ เราจะยืนยันตัวตนและดำเนินการภายใน 30 วัน</p>
+<h2>ยกเลิกการเชื่อมจากฝั่งผู้ให้บริการ</h2>
+<ul>
+<li>Facebook: การตั้งค่าและความเป็นส่วนตัว → การตั้งค่า → แอพและเว็บไซต์ → ลบ Match Cup</li>
+<li>Google: myaccount.google.com → ความปลอดภัย → การเชื่อมต่อของคุณกับแอปและบริการของบุคคลที่สาม</li>
+<li>LINE: ตั้งค่า → บัญชี → แอปที่เชื่อมโยงกันอยู่</li>
+</ul>
+<h2 lang="en">English</h2>
+<p lang="en">To delete your Match Cup data, sign in at matchcup.co and go to Account → Delete account, then confirm. This immediately removes your account, linked sign-in methods (LINE, Google, Facebook), name, picture, email, play history, friends list and chat messages. Backups are purged within 30 days. You can also email jinpatiparn@gmail.com with the subject “Delete my Match Cup data” and we will complete the request within 30 days.</p>
 </main>
-<footer>Match Cup · <a href="https://matchcup.co/">matchcup.co</a> · สำเนาเดียวกับหน้าในแอป</footer>
+<footer>Match Cup · <a href="https://matchcup.co/">matchcup.co</a> · สำเนาเดียวกับหน้าวิธีขอลบข้อมูลในแอป</footer>
 </body>
 </html>
