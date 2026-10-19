@@ -1,4 +1,4 @@
-# Match Cup · legal pages
+# MatchCup · legal pages
 
 Static copy of the privacy policy and data deletion pages from https://matchcup.co, served by GitHub Pages at https://legal.matchcup.co.
 It exists because Meta's crawler cannot reach the Vercel-hosted site; Facebook Login settings point here.
